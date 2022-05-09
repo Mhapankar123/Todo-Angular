@@ -14,19 +14,19 @@ export class TodoListComponent implements OnInit {
         id: 1,
         title: 'First Todo',
         description: 'Creating my first todo app with angular',
-        active: true,
+        isActive: true,
       },
       {
         id: 2,
         title: 'Second Todo',
         description: 'Filling in the data for testing.',
-        active: true,
+        isActive: true,
       },
       {
         id: 3,
         title: 'Third Todo',
         description: 'Atleast save 5000 per month',
-        active: true,
+        isActive: true,
       },
     ];
   }
